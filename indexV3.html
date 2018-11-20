@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CHIGAMA</title>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="indexV3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">  <!-- Added scrollspy -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#myPage" class="navbar-brand">CHIGAMA</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- homepage -->
+    <div class="jumbotron text-center">
+        <!-- <h1>CHIGAMA</h1>
+        <p>Asian Mexican Fusion</p> -->
+        <div id="chigamaLogo">
+            <img src="pics/Chigama-2.png" alt="">
+        </div>
+    </div>
+
+    <!-- About Us -->
+    <div id="about" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos harum dolor reiciendis at, ullam modi, 
+                aliquam, veniam debitis praesentium libero minus quo! Delectus quibusdam voluptatem itaque maxime autem 
+                hic impedit.</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-signal logo"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chefs -->
+    <div class="container-fluid bg-grey">
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-globe logo slideanim"></span>
+            </div>
+            <div class="col-sm-8">
+                <h2>Chefs</h2>
+                <h4><strong>Head Chef:</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, architecto 
+                eum fugiat voluptate porro iusto ipsa inventore non doloremque illo ad exercitationem vero? Voluptatibus modi 
+                excepturi ut expedita quia reiciendis!</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services" class="container-fluid text-center">
+        <h2>SERVICES</h2>
+        <h4>What we offer</h4>
+        <br>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-off logo-small"></span>
+                <h4>POWER</h4>
+                <p>lorem ipsum dolor sit amet...</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-heart logo-small"></span>
+                <h4>LOVE</h4>
+                <p>lorem ipsum dolor sit amet...</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-lock logo-small"></span>
+                <h4>JOB DONE</h4>
+                <p>lorem ipsum dolor sit amet...</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-leaf logo-small"></span>
+                <h4>GREEN</h4>
+                <p>lorem ipsum dolor sit amet...</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-certificate logo-small"></span>
+                <h4>CERTIFIED</h4>
+                <p>lorem ipsum dolor sit amet...</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-wrench logo-small"></span>
+                <h4>HARD WORK</h4>
+                <p>lorem ipsum dolor sit amet...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu -->
+    <div id="menu" class="container-fluid text-center bg-grey">
+        <h2>Menu</h2>
+        <div class="row text-center slideanim">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="pics/friedbuns.jpg" alt="Appetizers">
+                    <p><strong>Appetizers</strong></p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="pics/tacos.jpg" alt="Entree">
+                    <p><strong>Entree</strong></p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="pics/sides.jpg" alt="Sides">
+                    <p><strong>Sides</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact" class="container-fluid bg-grey">
+        <h2 class="text-center">CONTACT US</h2>
+        <div class="row">
+            <div class="col-sm-6 text-center">
+                <p><i class="far fa-clock"></i></p>
+                <p><strong>Sunday</strong></p>
+                <p><em>11:00am - 9:00pm</em></p>
+                <p><strong>Monday - Thursday</strong></p>
+                <p><em>11:00am - 10:00pm</em></p>
+                <p><strong>Friday and Saturday</strong></p>
+                <p><em>11:00am - 11:00pm</em></p>
+            </div>
+            <div id="address" class="col-sm-6 text-center">
+                <p><a href="https://www.google.com/maps/place/CHIGAMA+Asian+Mexican/@35.6073786,-97.5681741,15z/data=!4m5!3m4!1s0x0:0xa8184b303ed2abaa!8m2!3d35.6073786!4d-97.5681741" target="_blank"><i class="fas fa-map-marker-alt"></i></a></p>
+                <p>3000 W Memorial Rd #103</p>
+                <p>Oklahoma City, OK 73120</p>
+                <p><i class="fas fa-phone"></i></p>
+                <p>405.513.5999</p>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+    </footer>
+
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="indexV3.js"></script>
+</body>
+</html>
